@@ -9,11 +9,6 @@
 
 I work as a designer. I like to learn new programs and technologies.
 
-## **My strengths**
-* Quick learning
-* Resistance to stress and multitasking
-
-
 ## **Skills and Proficiency**
 * HTML, CSS 
 * Git/GitHub
