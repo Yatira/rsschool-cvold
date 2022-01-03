@@ -1,1 +1,1 @@
-# rsschool-cv
+https://yatira.github.io/rsschool-cv/
