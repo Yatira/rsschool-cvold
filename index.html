@@ -4,75 +4,186 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        h2 {
-    text-decoration: underline;
-}
-    </style>
+    <link rel="icon" type="image/x-icon" href="./icons/favicon.ico">
+  <title>My CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
- <h1>Irina Yatskevich</h1> 
- <section>
-     <h2>My Contact Info</h2>
-     <div> 
-<ul class="list">
-     <li>Phone: +375299351449</li>
-    <li>E-mail: irishovna@gmail.com</li>
-    <li>GitHub: Yatira</li>
-</ul>
-</div>
-</section>
-<section>
-    <h2>About Me</h2>
- <div>I work as a designer. I like to learn new programs and technologies.</div>
-</section>
-
-<section>
-    <h2>Skills and Proficiency</h2>
-    <div>
-        <ul class="list">
-<li>HTML, CSS</li>
-<li>Git/GitHub</li>
-<li>Wordpress</li>
-<li>Photoshop, Illustrator, InDesign, CorelDRAW</li>
-<li>VS Code, Adobe Dreamvweaver</li>
-</ul>
-</div>
-</section>
-<section>
-<h2>Education</h2>
-<div>
-    <ul>
-        <li>University:
-            <ul>
-            <li>Belarusian State Technological University
-            <ul><li>Publishing and printing</li></ul></li>
-          </ul>
-        </li>
-        <li>Courses:
-            <ul>
-              <li>Stepik
-                <ul><li>Software testing: preparation for ISTQB Foundation certification</li>
-                    <li>Web Development for Beginners: HTML and CSS</li>
+    
+  <div class="container">
+      
+        <header>
+            <div class="nav" id="navigation">
+              <nav class="header-nav">
+                <ul class="header-nav__list">
+                      <li class="header-nav__item">
+                          <a href="#about" class="header-nav__link">About myself</a>
+                      </li>
+                      <li class="header-nav__item">
+                          <a href="#code" class="header-nav__link">Code</a>
+                      </li>
+                      <li class="header-nav__item">
+                          <a href="#skills" class="header-nav__link">Skills</a>
+                      </li>
+                      <li class="header-nav__item">
+                          <a href="#contacts" class="header-nav__link">Contacts</a>
+                      </li>
+                      <li class="header-nav__item">
+                        <a href="#education" class="header-nav__link">Education</a>
+                    </li>
+                    <li class="header-nav__item">
+                      <a href="#projects" class="header-nav__link">Projects</a>
+                  </li>
                 </ul>
-            </li>
-            </ul>
-          </li>
-            </ul>
+              </nav>
+            </div>
+    
+            <div class="name-bg">
+              <div class="name-img"> 
+                <img src="./images/myphoto.jpg" alt="My photo" width="204" height="204">
+              </div>
+              <div  class="name">
+                <h1>Irina Yatskevich</h1>
+                <h2>Frontend Developer</h2>
+              </div>
+            </div>
+        </header>
+    
+        <div class="two-columns">
+    
+          <div class="left-column">
 
-   </div>
-    </section>
-<section>
-     <h2>Languages</h2>
-     <div>
-        <ul class="list">
-<li>Russian - native</li>
-<li>Belarusian - native</li>
-<li>English - A2</li>
-</ul>
-</div>
-</section>
+            <main>
+    
+              <section class="contacts" id="contacts">
+                <h3>Contacts</h3>
+                <ul>
+                  <li>
+                    <img src="./icons/location.png" alt="Location Icon">
+                    <p>Minsk, Belarus</p>
+                  </li>
+                  <li>
+                    <img src="./icons/email.png" alt="Email Icon">
+                    <p>irishovna@gmail.com</p>
+                  </li>
+                  <li>
+                    <img src="./icons/github.png" alt="Github Icon">
+                    <p>Yatira</p>
+                  </li>
+                  <li>
+                    <img src="./icons/discord.png" alt="Discord Icon">
+                    <p>YaIrina#9975</p>
+                  </li>
+                </ul>
+              </section>
+    
+              <section class="skills" id="skills">
+                <h3>Skills</h3>
+                <ul>
+                  <li>HTML5, CSS3</li>
+                  <li>JavaScript Basics</li>
+                  <li>Git, GitHub</li>
+                  <li>Wordpress</li>
+                  <li>VS Code, Adobe Dreamvweaver</li>
+                  <li>Adobe Photoshop, Lightroom</li>
+                  <li>Adobe Illustrator, InDesign</li>
+                  <li>CorelDRAW</li>
+                </ul>
+              </section>
+    
+              <section class="language">
+                <h3>Languages</h3>
+                <ul>
+                  <li> Russian - native</li>
+                  <li> Belarusian - native</li>
+                  <li> English - Pre-Intermediate (A2)</li>
+                </ul>
+              </section>
+    
+            </main>
+          </div>
+    
+          <aside class="right-column">
+    
+            <section class="profile" id="about">
+              <div class="sub-header">
+                <img src="./icons/about-myself.png" alt="About Myself Icon" width="30" height="30">
+                <h3>About Myself</h3>
+              </div>
+                <p>I believe that the desire to learn and the opportunity to acquire special skills always contribute to professional growth.</p> 
+                <p>During my work as an editor of the department of information support of the university and a layout designer in a newspaper, 
+                   my responsibilities included the administration and promotion of sites. This need pushed me to learn web development. 
+                   In addition, a huge amount of quality resources for self-education facilitated the study of the field of information technology.</p>
+                <p>Working as a designer, I improved my skills in working with graphic editors and printing equipment.</p>
+                <p>I enjoy learning new programs and technologies. I like to read industry literature (information technology, law, psychology). 
+                   I enjoy working and seeing the results of my work.</p>
+            </section>
+    
+            <section class="education" id="education">
+              <div class="sub-header">
+                <img src="./icons/education.png" alt="Education Icon" width="30" height="30">
+                <h3>Education</h3>
+              </div>
+              <p><strong>Belarusian State Technological University</strong></p>
+              <p>Publishing and printing</p>
+            </section>
+    
+            <section class="courses" id="#courses">
+              <div class="sub-header">
+                <img src="./icons/courses.png" alt="Courses" width="30" height="30">
+                <h3>Courses</h3>
+              </div>
+              <ul>
+                <li>JavaScript Manual on learnjavascript.ru</li>
+                <li><strong>RS School</strong> «JavaScript/Front-end. Stage 0»</li>
+                <li>Software testing: preparation for ISTQB Foundation certification on <strong>Stepik</strong></li>
+                <li>Web Development for Beginners: HTML and CSS on <strong>Stepik</strong></li>
+              </ul>
+            </section>
+    
+            <section id="code">
+              <div class="sub-header">
+                <img src="./icons/code.png" alt="Code Icon" width="30" height="30">
+                <h3>Code example</h3>
+              </div>
+              <pre>
+                <code>
+                  function multiply (a, b) {
+                    return a * b
+                    }
+                  }
+                </code>
+              </pre>
+            </section>
+    
+            <section class="projects" id="projects">
+              <div class="sub-header">
+                <img src="./icons/projects.png" alt="Projects Icon" width="30" height="30">
+                <h3>Projects</h3>
+              </div>
+                <p>I just start to learn web development. This <a href="https://yatira.github.io/rsschool-cv/"> <strong>resume</strong> </a> is my first job.</p>
+            </section>
+    
+          </aside>
+    
+        </div>
+    
+        <footer>
+          <a class="github" href="https://github.com/yatira">
+            <img class="github-icon" src="./icons/github.png" alt="Github Icon" width="26" height="26">
+            <p>My GitHub</p>
+          </a>
+          <a href="https://rs.school/js/">
+            <img src="./icons/rsschool.svg" alt="RS-School Icon" width="73" height="26">
+          </a>
+          <p>2022</p>
+        </footer>
+    
+      </div>
 </body>
 </html>
